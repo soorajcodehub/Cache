@@ -11,5 +11,8 @@ namespace NWaySetAssociativeCache
             this.key = key;
             this.itemValue = itemValue;
         }
+
+        public V ItemValue { get => itemValue; set => itemValue = value; }
+        public K Key { get => key;}
     }
 }
